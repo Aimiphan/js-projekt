@@ -7,6 +7,7 @@
 nav {
   background-color: black;
   padding: 50px ;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -73,16 +74,15 @@ footer{
   width: 100%;
 }
 
-footer p{ 
-  margin: 0; 
+footer p{
+  margin: 0;
  }
 
 .infoknap{
-  background-color: black; 
-  color: #CAF880;  
+  background-color: black;
+  color: #CAF880;
   font-family: 'Open Sans', sans-serif;
-  border: none; 
-  padding: 10px 20px; 
-  text-align: center; 
-} 
- 
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+}
