@@ -22,7 +22,9 @@ main{
 #maintekst1{
     font-size: 100px;
     color: white;
-    word-spacing: 30px;
+    word-spacing: 50px;
+    font-family: Arial, Helvetica, sans-serif, bold;
+
 }
 
 
