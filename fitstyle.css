@@ -52,6 +52,7 @@ main{
 
 #findcenter{
     background-color: transparent;
+    color: #fff;
     padding: 10px;
     margin-left: 70px;
     border-top: none;
@@ -73,15 +74,10 @@ footer{
   width: 100%;
 }
 
-<<<<<<< HEAD
+
 footer p{ 
   margin: 0; 
-=======
-
-footer p{
-  margin: 0;
->>>>>>> 819368eb7c5229993b18180aa1def4c7ebb35ead
-}
+ }
 
 .infoknap{ 
   background-color: black; 
