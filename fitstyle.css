@@ -26,5 +26,9 @@
 /*footer*/
 .footer {
   background-color: black;
-  padding : 200px ;
+  padding : 200px ; 
+}
+ 
+.footerbox { 
+  background-color: aliceblue;
 }
