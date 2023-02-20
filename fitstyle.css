@@ -30,8 +30,8 @@ a {
 
 /*body*/
 main{
-    background-image:url(fitzone.jpg)
-
+    background-image:url(forsidebillede.jpg);
+    padding: 100px;  
 }
 
 #maintekst1{
@@ -42,7 +42,10 @@ main{
 
 #findcenter{
     background-color: transparent;
-    border: none;
+    border-bottom: 2px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #CAF880;
 }
 
 
