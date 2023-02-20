@@ -1,4 +1,4 @@
-
+/*header*/
 .logo {
   width: 100%;
   height: auto;
@@ -49,13 +49,14 @@ main{
 /*footer*/
 .footer {
   background-color: black;
-  padding : 200px ;
+  padding : 80px ;
 }
 
 .footerbox {
   background-color: greenyellow;
   margin: auto;
   text-align: center;
-  padding-top: 2px;
+  border: 200px;
+  padding-top: 100px;
   padding-bottom: 2px;
 }
