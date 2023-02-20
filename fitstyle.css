@@ -1,13 +1,12 @@
 /*header*/
 .logo {
-  width: 100%;
+  width: 190px;
   height: auto;
 }
 
 nav {
   background-color: black;
   padding: 50px ;
-  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -29,7 +28,7 @@ a {
   padding: 10px;
 }
 
-div {
+.grønboks {
   width: 50px;
   height: 50px;
   background-color: green ;
@@ -53,6 +52,7 @@ main{
 
 #findcenter{
     background-color: transparent;
+    color: #fff;
     padding: 10px;
     margin-left: 70px;
     border-top: none;
@@ -62,7 +62,6 @@ main{
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
 }
-
 
 /*footer*/
 footer{
@@ -74,15 +73,16 @@ footer{
   width: 100%;
 }
 
-footer p{
-  margin: 0;
+
+footer p{ 
+  margin: 0; 
  }
 
-.infoknap{
-  background-color: black;
-  color: #CAF880;
-  font-family: 'Open Sans', sans-serif;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
+.infoknap{ 
+  background-color: black; 
+  color: #CAF880; 
+  border: none; 
+  padding: 10px 20px; 
+  text-align: center; 
+  
 }
