@@ -95,5 +95,22 @@ footer p{
   font-family: 'Open Sans', sans-serif;
   padding: 10px 20px; 
   text-align: center; 
-  
+ }
+
+.infoknap3{ 
+  background-color: black; 
+  color: #b8cc0c; 
+  border: none; 
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 20px; 
+  text-align: center;  
+}
+
+.infoknap4{ 
+  background-color: black; 
+  color: #b8cc0c; 
+  border: none; 
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 20px; 
+  text-align: center;  
 }
