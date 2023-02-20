@@ -46,13 +46,14 @@ main{
 #findcenter{
     background-color: transparent;
     padding: 10px;
+    margin-left: 70px;
     border-top: none;
+    border-left: none;
+    border-right: none;
     border-color: #CAF880;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 10px;
-
+    letter-spacing: 3px;
 }
-
 
 
 /*footer*/
