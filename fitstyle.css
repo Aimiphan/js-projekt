@@ -1,7 +1,33 @@
 /*header*/
 .logo {
+  display: flex;
+  justify-content: left;
   width: 190px;
   height: auto;
+}
+
+.menu{
+  display:flex;
+  justify-content: right;
+}
+
+#menuknap1{
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: #b8cc0c;
+  border-style: solid;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menuknap2{
+  background-color: #b8cc0c;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -62,6 +88,18 @@ main{
     border-color: #b8cc0c;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
+}
+
+.grønboks{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: #b8cc0c;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  height: 400px;
 }
 
 /*footer*/
