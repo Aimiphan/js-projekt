@@ -78,10 +78,21 @@ footer p{
   margin: 0; 
  }
 
+
 .infoknap1{ 
   background-color: black; 
   color: #CAF880; 
   border: none; 
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 20px; 
+  text-align: center;
+}
+
+.infoknap2{ 
+  background-color: black; 
+  color: #CAF880; 
+  border: none; 
+  font-family: 'Open Sans', sans-serif;
   padding: 10px 20px; 
   text-align: center; 
   
