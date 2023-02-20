@@ -31,7 +31,7 @@ a {
 .grønboks {
   width: 50px;
   height: 50px;
-  background-color: green ;
+  background-color: #b8cc0c ;
 }
 
 /*body*/
@@ -58,14 +58,14 @@ main{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-color: #CAF880;
+    border-color: #b8cc0c;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
 }
 
 /*footer*/
 footer{
-  background-color: #CAF880;
+  background-color: #b8cc0c;
   padding: 10px;
   text-align: center;
   position: fixed;
@@ -81,7 +81,7 @@ footer p{
 
 .infoknap1{ 
   background-color: black; 
-  color: #CAF880; 
+  color: #b8cc0c; 
   border: none; 
   font-family: 'Open Sans', sans-serif;
   padding: 10px 20px; 
@@ -90,7 +90,7 @@ footer p{
 
 .infoknap2{ 
   background-color: black; 
-  color: #CAF880; 
+  color: #b8cc0c; 
   border: none; 
   font-family: 'Open Sans', sans-serif;
   padding: 10px 20px; 
