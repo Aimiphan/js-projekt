@@ -28,7 +28,7 @@ a {
   padding: 10px;
 }
 
-.grønboks {
+div {
   width: 50px;
   height: 50px;
   background-color: green ;
@@ -52,7 +52,6 @@ main{
 
 #findcenter{
     background-color: transparent;
-    color: #fff;
     padding: 10px;
     margin-left: 70px;
     border-top: none;
@@ -74,16 +73,16 @@ footer{
   width: 100%;
 }
 
-
 footer p{ 
   margin: 0; 
  }
 
-.infoknap{ 
+.infoknap{
   background-color: black; 
-  color: #CAF880; 
+  color: #CAF880;  
+  font-family: 'Open Sans', sans-serif;
   border: none; 
   padding: 10px 20px; 
   text-align: center; 
-  
-}
+} 
+ 
