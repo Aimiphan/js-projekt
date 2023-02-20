@@ -9,6 +9,10 @@
 .menu{
   display:flex;
   justify-content: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 12px;
 }
 
 #menuknap1{
@@ -16,21 +20,31 @@
   border-radius: 20px;
   border-color: #b8cc0c;
   border-style: solid;
-  padding: 10px;
+  padding: 8px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 #menuknap2{
   background-color: #b8cc0c;
-  border: none;
   border-radius: 20px;
-  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  padding: 8px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 nav {
+  display: grid;
+  grid-template-columns: 500px, 500px;
+  grid-gap: 100px;
   background-color: black;
   padding: 50px ;
   font-family: 'Open Sans', sans-serif;
@@ -54,18 +68,14 @@ a {
   text-decoration: none;
   padding: 10px;
 }
-
-.grønboks {
-  width: 50px;
-  height: 50px;
-  background-color: #b8cc0c ;
-}
+ 
 
 /*body*/
 main{
     background-image:url(forsidebillede.jpg);
     padding: 100px;
     padding: 100px;
+
 }
 
 #maintekst1{
@@ -73,6 +83,7 @@ main{
     color: white;
     word-spacing: 50px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     letter-spacing: 20px;
     padding-left: 70px;
 }
@@ -87,19 +98,43 @@ main{
     border-right: none;
     border-color: #b8cc0c;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     letter-spacing: 3px;
 }
 
-.grønboks{
+.gridboks{
   display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  text-align: center;
+  grid-template-columns: 500px, 500px;
+  grid-gap: 100px;
+}
+
+.grid1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 240px;
+}
+
+.grid2{
   background-color: #b8cc0c;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  width: 50%;
+  width: 600px;
   height: 400px;
+  padding: 50px;
+  grid-column-start: 2;
+  margin: 50px;
+}
+
+.overskriftgrøn{
+  color: white;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.skriftgrøn{
+  color: white;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif, light;
+  text-align: center;
 }
 
 /*footer*/
