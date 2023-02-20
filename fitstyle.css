@@ -56,16 +56,16 @@ main{
 
 
 /*footer*/
-.footer {
-  background-color: black;
-  padding : 80px ;
+footer{
+  background-color: #CAF880; 
+  padding: 10px; 
+  text-align: center; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
 }
 
-.footerbox {
-  background-color: greenyellow;
-  margin: auto;
-  text-align: center;
-  border: 200px;
-  padding-top: 100px;
-  padding-bottom: 2px;
+
+footer p{ 
+  margin: 0;
 }
