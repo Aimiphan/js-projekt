@@ -20,10 +20,11 @@ main{
     background-color: #aeaeae;
 }
 
-
-
-
-
+#maintekst1{
+    font-size: 100px;
+    color: white;
+    word-spacing: 30px;
+}
 
 
 
