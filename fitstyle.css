@@ -175,6 +175,8 @@ main{
 }
 
 #findcenter2{
+  display: grid;
+  justify-content: center;
   background-color: transparent;
   color: black;
   padding: 10px;
@@ -186,7 +188,8 @@ main{
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 3px;
-  width: 100px;
+  width: 150px;
+  margin-left: 230px;
 }
 
 /*footer*/
