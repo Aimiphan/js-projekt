@@ -17,14 +17,14 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Udskriv resultatet i et element med id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  // Udskriv resultatet i et element med id="ur"
+  document.getElementById("ur").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // Når countdown er ovre, vil der står dette...
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("ur").innerHTML = "EXPIRED";
   }
 }, 1000);
 
