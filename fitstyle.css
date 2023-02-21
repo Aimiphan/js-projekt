@@ -142,6 +142,7 @@ main{
 
 .gridboks2{
   display: grid;
+  justify-content: center;
   background-color: white;
   height: auto;
   padding: 150px;
@@ -159,8 +160,27 @@ main{
 }
 
 #midterp{
-  width: 400px;
+  width: 600px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  justify-content: center;
   text-align: center;
+  line-height: 1.7em;
+}
+
+#findcenter2{
+  background-color: transparent;
+  color: black;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #b8cc0c;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 3px;
+  width: 100px;
 }
 
 /*footer*/
