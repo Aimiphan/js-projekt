@@ -295,7 +295,6 @@ footer{
   width: 100%;
   background-color:black;
   color: white;
-  text-align: center;
 }
 
 .footergridboks{
@@ -324,6 +323,3 @@ footer{
   line-height: 20px;
 }
 
-#dropdown-list {
-  display: none;
-}
