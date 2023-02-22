@@ -54,7 +54,7 @@ showSlides();
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("galleri");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("galleri");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
