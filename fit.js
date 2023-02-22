@@ -71,6 +71,13 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+}s
 
 //array og loop 
+public class Main {
+  public static void main(String[] args) {
+    String[] overskrift = {"overskriftgrøn", "skriftgrøn", "overskriftgrøn"};
+    for (int i = 0; i < overskrift.length; i++) {
+      System.out.println(overskrift[i]);
+    }
+ }
