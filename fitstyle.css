@@ -271,16 +271,19 @@ img {vertical-align: middle;}
 
 /*footer*/
 footer{
-  background-color: black;
-  padding: 10px;
-  text-align: center;
+  position: fixed;
+  left: 0;
   bottom: 0;
-  height: auto;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
 }
 
 .footergridboks{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  width: 100%;
 }
 
 .footerknap{
