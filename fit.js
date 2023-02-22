@@ -58,7 +58,6 @@ function showSlides(n) {
 }
 
 
-
 //Dropdown i footer
 // Hent elementerne fra DOM
 const dropdownBtn = document.querySelector('#dropdown-btn');
