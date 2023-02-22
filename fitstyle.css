@@ -86,8 +86,7 @@ a {
 main{
     background-image: url('forsidebillede.jpg');
     background-image: linear-gradient(to right, rgba(18, 23, 43, 0.876), rgba(254, 254, 254, 0.154)), url('forsidebillede.jpg');
-    padding: 100px;
-    padding: 100px;
+    width: auto;
 }
 
 
@@ -172,7 +171,6 @@ main{
   background-color: white;
   height: auto;
   padding: 150px;
-  margin: -100px;
 }
 
 .midtertekst1{
@@ -312,9 +310,6 @@ img {vertical-align: middle;}
 
 /*footer*/
 footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color:black;
   color: white;
