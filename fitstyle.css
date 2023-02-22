@@ -112,8 +112,9 @@ main{
 
 #urtekst {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   margin-top: 0px;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .gridboks{
