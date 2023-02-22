@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>FitZone</title>
     <link rel="stylesheet" href="fitstyle.css">
-    <script src="fit.js"></script>
+    <script src="dropdown.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
@@ -23,7 +23,19 @@
 <nav class="nav">
     <ul class="menu">
       <div class="gridlist"><img id="logo" src="fitlogo.png" alt="logo"></div>
-        <li class="gridlist"><a href="vitilbyder.html"> VI TILBYDER <i class="fa-solid fa-chevron-down"></i> </a></li>
+
+    <div class="dropdown">
+        <button onclick="funktion1()" class="dropknap">VI TILBYDER<li class="gridlist"><a href="vitilbyder.html"></a></li></button>
+        <div id="minDropdown" class="dropdownContent">
+        <input type="text" placeholder="Search.." id="mitInput">
+            <a href="#">STYRKETRÆNING</a>
+            <a href="#">CARDIOTRÆNING</a>
+            <a href="#">HOLDSAL</a>
+            <a href="#">PERSONLIG TRÆNER</a>
+            <a href="#">FIT ZONE VIDEN</a>
+        </div>
+    </div>
+        
         <li class="gridlist"><a href="priser.html">PRISER</a></li>
         <li class="gridlist"><a href="findcenter.html">FIND CENTER</a></li>
         <li class="gridlist"><button id="menuknap1"a href="prøvgratis.html">PRØV GRATIS</a></li>
@@ -31,6 +43,7 @@
         <li class="gridlist"><a href="logind.html">LOG IND</a></li>
     </ul>
 </nav>
+
 
 <main>
   <p id="maintekst1">DKK 99,-/MD.</p>
