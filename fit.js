@@ -1,3 +1,5 @@
+
+
 //Countdown
 var countDownDate = new Date("Jun 1, 2023 00:00:00").getTime();
 
@@ -73,11 +75,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }s
 
-//array og loop 
-public class Main {
-  public static void main(String[] args) {
-    String[] overskrift = {"overskriftgrøn", "skriftgrøn", "overskriftgrøn"};
-    for (int i = 0; i < overskrift.length; i++) {
-      System.out.println(overskrift[i]);
-    }
- }
