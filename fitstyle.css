@@ -1,4 +1,4 @@
-/*header*/
+/* Header */
 #logo {
   width: 190px;
   height: auto;
@@ -70,7 +70,7 @@ a {
 }
 
 
-/*body*/
+/*Body*/
 main{
     background-image: url('forsidebillede.jpg');
     background-image: linear-gradient(to right, rgba(18, 23, 43, 0.876), rgba(254, 254, 254, 0.154)), url('forsidebillede.jpg');
