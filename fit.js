@@ -53,7 +53,7 @@ showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("slideshowgalleri");
+  let slides = document.getElementsByClassName("galleri");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
