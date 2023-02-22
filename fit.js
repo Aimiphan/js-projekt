@@ -62,7 +62,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("galleri");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("galleri");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
