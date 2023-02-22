@@ -321,12 +321,15 @@ footer{
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .footertekst{
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
+  color: white;
+  text-align: left;
+  line-height: 20px;
 }
 
 #dropdown-list {
