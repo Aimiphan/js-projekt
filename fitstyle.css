@@ -246,7 +246,7 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
-.galleri {
+.gallerijs {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -296,6 +296,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
 
 /*footer*/
 footer{
