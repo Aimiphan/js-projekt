@@ -110,6 +110,12 @@ main{
   margin-top: 0px;
 }
 
+#urtekst {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
 .gridboks{
   display: grid;
   grid-template-columns: 500px, 500px;
