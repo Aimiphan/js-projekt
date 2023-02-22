@@ -137,7 +137,6 @@ main{
 .grid1{
   grid-column-start: 1;
   grid-column-end: 2;
-  padding: 240px;
 }
 
 .grid2{
