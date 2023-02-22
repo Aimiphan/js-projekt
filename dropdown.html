@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FitZone</title>
+    <link rel="stylesheet" href="fitstyle.css">
+    <script src="fit.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+<!-- Header -->
+<header class="header">
+</header>
+
+<!-- Navigation -->
+<nav class="nav">
+    <ul class="menu">
+      <div class="gridlist"><img id="logo" src="fitlogo.png" alt="logo"></div>
+        <li class="gridlist"><a href="vitilbyder.html"> VI TILBYDER <i class="fa-solid fa-chevron-down"></i> </a></li>
+        <li class="gridlist"><a href="priser.html">PRISER</a></li>
+        <li class="gridlist"><a href="findcenter.html">FIND CENTER</a></li>
+        <li class="gridlist"><button id="menuknap1"a href="prøvgratis.html">PRØV GRATIS</a></li>
+        <li class="gridlist"><button id="menuknap2"a href="blivmedlem.html">BLIV MEDLEM</a></li>
+        <li class="gridlist"><a href="logind.html">LOG IND</a></li>
+    </ul>
+</nav>
+
+<main>
+  <p id="maintekst1">DKK 99,-/MD.</p>
+<button id="findcenter">FIND CENTER</button>
+
+<!-- Grøn boks -->
+<div class="gridboks">
+  <div class="grid1"></div>
+  <div class="grid2">
+    <h2 class="overskriftgrøn"> + 2500 MEDLEMMER ALLEREDE </h2>
+    <p class="skriftgrøn">Vores medlemmer elsker os</p>
+    <h2 class="overskriftgrøn"> SÅ NEMT KOMMER DU IGANG </h2>
+    <p class="skriftgrøn">Opret et medlemskab på under 5 minutter</p>
+    <h2 class="overskriftgrøn"> TRÆN HVER DAG FRA 05.00-24.00</h2>
+    <p class="skriftgrøn"> Træn tidlig morgen og sen aften med et standard medlemskab</p>
+  </div>
+</div>
+
+<!-- Countdown -->
+<div class="gridboks2">
+<div> <p id="urtekst"> Tilbuddet slutter om: </p> </div>
+<div> <p id="ur"></p> </div>
+<h1 class="midtertekst1">VI KÆMPER FOR <br> DIG</h1>
+<p id="midterp">“Vores vigtigste mission er, at kunne sikre dig den højeste kvalitet til de laveste priser. Gennem innovation, nytænkning og ikke mindst hårdt arbejde lykkes vi hver dag med, at tilbyde dig de bedste faciliteter til den laveste pris. Vi håber, at du vil give os et forsøg. Selvom at vi er utrolig billige, så forhindrer det os ikke i, at være der for dig. Hvis du har spørgsmål, ris/ros eller blot vil ringe for at sige hej, så er vi klar ved telefonerne”</p>
+<button id="findcenter2">FIND CENTER</button>
+<br>
+</div>
+
+
+<!-- Billedegalleri -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/billede1.png" style="width:100%">
+  <div class="galleri">Fitzone billede 1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/billede2.png" style="width:100%">
+  <div class="galleri">Fitzone billede 2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ben.png" style="width:100%">
+  <div class="galleri">Ben</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="footergridboks"></div>
+   <button class="footerknap">ADRESSE <br> Østre Havnevej 35, 2. sal <br> 5700 Svendborg <br> (Administration)</button>
+   <button class="footerknap">FIND CENTER</button>
+   <button class="footerknap">INFORMATION</button>
+   <button class="footerknap">VAGTTELEFON</button>
+</div>
+
+<button id="dropdown-btn">Adresse</button>
+<ul id="dropdown-list">
+  <li>Valgmulighed 1</li>
+  <li>Valgmulighed 2</li>
+  <li>Valgmulighed 3</li>
+</ul>
+
+</footer>
+
+  </body>
+</html>
