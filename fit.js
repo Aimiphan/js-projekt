@@ -29,24 +29,6 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-
-//Dropdown i footer
-// Hent elementerne fra DOM
-const dropdownBtn = document.querySelector('#dropdown-btn');
-const dropdownList = document.querySelector('#dropdown-list');
-
-// Tilføj en event listener til dropdown-knappen
-dropdownBtn.addEventListener('mouseover', () => {
-  // Vis dropdown-menuen ved at ændre display-stilen
-  dropdownList.style.display = 'block';
-});
-
-// Tilføj en event listener til dropdown-listen
-dropdownList.addEventListener('mouseout', () => {
-  // Skjul dropdown-menuen ved at ændre display-stilen
-  dropdownList.style.display = 'none';
-});
-
 //billedegalleri
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -74,3 +56,22 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
+//Dropdown i footer
+// Hent elementerne fra DOM
+const dropdownBtn = document.querySelector('#dropdown-btn');
+const dropdownList = document.querySelector('#dropdown-list');
+
+// Tilføj en event listener til dropdown-knappen
+dropdownBtn.addEventListener('mouseover', () => {
+  // Vis dropdown-menuen ved at ændre display-stilen
+  dropdownList.style.display = 'block';
+});
+
+// Tilføj en event listener til dropdown-listen
+dropdownList.addEventListener('mouseout', () => {
+  // Skjul dropdown-menuen ved at ændre display-stilen
+  dropdownList.style.display = 'none';
+});
