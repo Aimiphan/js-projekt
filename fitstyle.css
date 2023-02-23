@@ -461,3 +461,10 @@ font-size: 80%;
   background-color:#b8cc0c;
   background-image: linear-gradient(to top, rgba(9, 80, 0, 0.876), rgba(254, 254, 254, 0.154));
 }
+
+.billeder{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
