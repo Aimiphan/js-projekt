@@ -108,3 +108,27 @@ dropdownList.addEventListener('mouseout', () => {
   // Skjul dropdown-menuen ved at ændre display-stilen
   dropdownList.style.display = 'none';
 });
+
+const form = document.querySelector("#contact-form");
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const name = form.name.value.trim();
+  const email = form.email.value.trim();
+  const message = form.message.value.trim();
+
+  if (!name || !email || !message) {
+    alert("Please fill in all fields");
+    return;
+  }
+
+  sendData({ name, email, message });
+
+  form.reset();
+});
+
+function sendData(formData) {
+  // Replace this with your own code to send the data to the server
+  console.log(formData);
+}

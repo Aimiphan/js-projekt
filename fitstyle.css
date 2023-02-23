@@ -450,7 +450,7 @@ font-size: 80%;
   padding: 2px;
   margin-left: 5px;
   background-color: #b8cc0c;
-  border-radius: 100%;
+  border-radius: 30%
 }
 
 .active:after {
@@ -524,3 +524,62 @@ font-size: 80%;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+/* KONTAKTFORMULAR*/
+
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #dedddd;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+  height: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button[type="submit"] {
+  background-color:#b8cc0c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button[type="submit"]:hover {
+  background-color:#899709;
+}
+
+#contact-form{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
