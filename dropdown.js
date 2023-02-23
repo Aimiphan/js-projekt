@@ -1,31 +1,19 @@
-// Get the dropdown menu element
-const dropdownMenu = document.getElementById("dropdown-menu");
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
-// Define an array of options
-const options = [
-  { value: "", text: "Select an option" },
-  { value: "option1", text: "Option 1" },
-  { value: "option2", text: "Option 2" },
-  { value: "option3", text: "Option 3" }
-];
-
-// Loop through the options array and create option elements
-options.forEach(option => {
-  const optionElement = document.createElement("option");
-  optionElement.value = option.value;
-  optionElement.text = option.text;
-  dropdownMenu.appendChild(optionElement);
-});
-
-// Define an event listener for the dropdown menu
-dropdownMenu.addEventListener("change", event => {
-  const selectedValue = event.target.value;
-  if (selectedValue === "option1") {
-    // Do something for option 1
-  } else if (selectedValue === "option2") {
-    // Do something for option 2
-  } else if (selectedValue === "option3") {
-    // Do something for option 3
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
   }
-});
-
+}
