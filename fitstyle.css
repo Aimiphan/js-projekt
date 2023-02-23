@@ -390,3 +390,62 @@ footer{
   background-color: #4CAF50;
   color: white;
 }
+
+.sprg{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+.svar{
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+font-size: 80%;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  color: #777;
+  float: right;
+  padding: 2px;
+  margin-left: 5px;
+  background-color: #b8cc0c;
+  border-radius: 100%;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
