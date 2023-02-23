@@ -229,8 +229,7 @@ img {vertical-align: middle;}
 
 #billedegalleribaggrund{
   background-color: white;
-  opacity: 50;
-  background-image: linear-gradient(to bottom, rgba(59, 255, 24, 0), rgb(255, 255, 255)1500px); 
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.181), rgb(184, 204, 12)1500px);
   padding-top: 50px;
 }
 
@@ -477,4 +476,5 @@ font-size: 80%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 600px;
 }
