@@ -396,6 +396,7 @@ footer{
   font-size: 40px;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 30px;
+  color: white;
 }
 
 .svar{
@@ -409,9 +410,10 @@ footer{
 .accordion {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: #444;
+  color: #444; 
   cursor: pointer;
-  padding: 10px;
+  padding: 15px;
+  padding-left: 30px;
   width: 100%;
   text-align: left;
   border: none;
@@ -448,4 +450,14 @@ font-size: 80%;
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.johboks{
+  display: grid;
+  height: auto;
+  padding: 150px;
+  grid-template-columns: auto;
+  background-color:#b8cc0c;
+  background-image: linear-gradient(to top, rgba(9, 80, 0, 0.876), rgba(254, 254, 254, 0.154));
 }
