@@ -6,9 +6,6 @@
     <title>FitZone</title>
     <link rel="stylesheet" href="fitstyle.css">
     <script src="fit.js" defer></script>
-    <script> type="text/jacascript">
-      alert("HEJ OG VELKOMMEN TIL FITZONE, TRYK PÅ OK FOR AT KOMME VIDERE")
-    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
@@ -55,24 +52,26 @@
 </div>
 
 <!-- Billedegalleri -->
+
+<div id="billedegalleribaggrund">
 <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img/ben.png" style="width:100%">
-  <div class="text">Hos Fitzone er der en masse fordele.</div>
+  <img src="img/ben.png" class="billeder" style="width:500px">
+  <div class="text">Hos Fitzone er der en masse fordele</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="img/billede1.png" style="width:100%">
-  <div class="text">Træn med dine kammerater.</div>
+  <div class="text">Træn med dine kammerater</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="img/billede2.png" style="width:100%">
-  <div class="text">Få personlig træner hos FitZone.</div>
+  <div class="text">Få personlig træner hos FitZone</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -86,6 +85,8 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+</div>
+
 <!-- Countdown -->
 <div class="gridboks2">
 <div> <p id="urtekst"> Tilbuddet slutter om: </p> </div>
@@ -97,8 +98,8 @@
 </div>
 
 <!-- Johanna -->
-<div class="sprg"><h2>FAQ</h2></div>
-
+<div class="johboks">
+  <div class="sprg"><h2>FAQ</h2></div>
 
         <button class="accordion"><h3>HVOR HAR I FITNESSCENTRE HENNE?</h3></button>
         <div class="panel">
@@ -144,6 +145,7 @@
           <p>Du kan nemt melde dig ind her på vores hjemmeside ved at gå hertil – Tilmelding. Vi vil gøre det så nemt for vores medlemmer at melde sig ind eller ud i vores fitnesscenter, hvorfor du altid kan gøre det online på vores hjemmeside. Du kan også holde pause når du er medlem i fit zone således du slipper for at at oprette dig igen. </p>
         </div>
         </div>
+      </div>
 
 <!-- Footer -->
 <footer>
