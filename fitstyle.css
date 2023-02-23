@@ -226,7 +226,7 @@ img {vertical-align: middle;}
 
 #billedegalleribaggrund{
   background-color: white;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.181), rgb(184, 204, 12)1500px);
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(148, 147, 147, 0.728)80%);
   padding-top: 50px;
 }
 
