@@ -1,5 +1,3 @@
-
-
 //Countdown
 var countDownDate = new Date("Jun 1, 2023 00:00:00").getTime();
 
