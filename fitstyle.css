@@ -573,6 +573,7 @@ button[type="submit"] {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 button[type="submit"]:hover {
@@ -582,4 +583,11 @@ button[type="submit"]:hover {
 #contact-form{
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+#kontakt{
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 60px;x
 }
